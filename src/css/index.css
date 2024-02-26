@@ -1,0 +1,29 @@
+#root {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  height: 100svh;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Honk;
+}
+
+.scoreboard {
+  font-size: 5rem;
+  justify-self: start;
+  margin-left: 100px;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 50px;
+  margin: 100px;
+  margin-top: 0px;
+}
+
+body {
+  margin: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2015/01/01/12/47/graffiti-585623_1280.jpg');
+}
